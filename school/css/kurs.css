@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald&display=swap');
+
+.wow{
+    background-color: #3d2c53;
+    width: 760px;
+    height: auto;
+    color:white;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .4);
+    border-radius: 25px 25px 25px 25px;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+.wow h2{
+    color:#b1e860;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.wow h4{
+    color:#b1e860;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.166);
+    width: auto;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.166);
+    margin: 2%;
+}
+.wow img:hover{
+    transform: scale(2);
+    transition: 1s;
+}
+.wow img{
+    margin: 2% 2%;
+    transition: 1s;
+    width:30%;
+}
+#cent{
+    text-align: center;
+}

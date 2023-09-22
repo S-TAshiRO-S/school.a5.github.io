@@ -1,0 +1,89 @@
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+.navbar-menu li{
+    display: inline-block;
+}
+.navbar-menu a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    height: 39px;
+    text-align: center;
+}
+.log{
+    margin-left: 58px;
+    margin-right: 29px;
+    color:#b1e860;
+    width: 165px;
+}
+.kurs{
+    margin-left: 30.1px;
+    color:#b1e860;
+    width: 165px;
+}
+.prepod{
+    margin-left: 30.1px;
+    color:#b1e860;
+    width: 165px;
+}
+.galery{
+    margin-left: 30.1px;
+    color:#b1e860;
+    width: 165px;
+}
+.about{
+    margin-left: 30.1px;
+    margin-right: 30.1px;
+    color:#b1e860;
+    width: 165px;
+}
+.news{
+    margin-left: 30.1px;
+    color:#b1e860;
+    width: 165px;
+    
+}
+.navbar-menu a:hover{
+    border: 2px solid #b1aaba;
+    padding-top: 10px;
+}
+.navbar-menu text:hover{
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+nav ul li ul{
+    position: absolute;
+    top: 73%;
+    left: 66.5%;
+    width: 180px;
+    font-size: 16px;
+    display: none;
+    
+}
+nav ul li ul li{
+    background-color: #3d2c53;
+    width: 100%;
+    border: 1px solid rgba(178, 232, 96, 0.3);
+    text-align: center;
+    border-radius: 7%;
+    text-align: center;
+    margin: 2px;
+}
+nav ul li ul li a{
+    padding-top: 2%;
+    color: #b1e860;
+}
+nav ul li:hover > ul{
+    display: initial;
+}
+.teacher{
+    width: 165px;
+}
+.content{
+    z-index: 20;
+}

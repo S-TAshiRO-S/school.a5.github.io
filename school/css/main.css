@@ -1,0 +1,66 @@
+/* Основной стиль для всех страниц */
+body{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-weight: bold;
+    background: url(../images/background.jpg);
+    background-size: 90%;
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .4);
+    border-radius: 25px 25px 0px 0px;
+    background: #3d2c53;
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#hrver{
+    width: 2px;
+    height: 1470px;
+    margin-left: 122px;
+}
+.body{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 800px;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-left: 25%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 100);
+}
+/* Подвал страницы */
+.underground{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+    border-radius: 0px 0px 25px 25px;
+    background: #3d2c53;
+    font-size: 16px;
+}
+html {
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+/* сролбар настройки */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#43884d;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+    background-color:#6969dd;
+    border-radius: 25px;
+}
